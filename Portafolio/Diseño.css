@@ -1,0 +1,362 @@
+/*Aqui está parte del diseño del header, su largo y el color de fondo que es lo más caracteristico, más abajo está el body donde agregue la imagen de fondo, que se ve en todas las pestañas, y mas abajo varias 
+modificaciones más al header, mas especificamente a sus elementos de la lista, tanto li, como ul, y tambien a los links para que no aparecieran con ese color azul subrayado*/
+header{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 0 20px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(blur-close-up-code-computer-546819-1080x675.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+#barra ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#barra li{
+    display:inline;
+    text-align: center;
+    margin: 10px;
+}
+
+#barra ul li a{
+    display:inline-block;
+    position: relative;
+    color: rgb(30, 255, 0);
+    text-decoration: none;
+    line-height: 30px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+/*A partir de aqui se podra ver una simitud en el diseño de las paginas, que siempre siguen el mismo estilo, primero este fondo negro con opacidad, el cual deja ver la imagen, y las letras y bordes verdes, presentes
+en toda la página*/
+#por{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 800px;
+    height:900px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family:'Courier New';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#por p{
+    font-size: 1.2rem;
+    font-family:'Calibri';
+    font-size: 15px;
+}
+
+footer{
+    align-self:flex-end;
+    background-color: black;
+    line-height: 3;
+    width: 100%;
+    color: white;
+    border-top: 1px solid rgb(30, 255, 0);  
+
+}
+/*Y aquí tambien se apreciará algo, que como ya había comentado anteriormente en los html, sigue el mismo patron, con la pagina "Inicio", empece a encerrar en un recuadro lo que es el titulo, y en otro recuadro mas 
+grande, todo el contenido de la página, a partir de aquí recicle mucho código la verdad, lo cual me vino muy bien para ser sincero*/
+
+#tituloini{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family:'Courier New';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#contenedorini{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:800px;
+    text-align: left;
+    margin: 2rem auto;
+    font-family:'Calibri';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+/*Este es el diseño de la tabla, no hay nada espectacular, le puse un borde verde, los titulos tambien son verdes con la fuente mas grande, y el contenido de las demas tablas son con letras blancas*/
+#tabla{
+    color: rgb(30, 255, 0);
+    font-family:'Calibri';
+    font-size: 2.5rem;
+
+}
+#tabla td{
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#tituloexp{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family:'Courier New';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#contenedorgen{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:800px;
+    text-align: left;
+    margin: 2rem auto;
+    font-family:'Calibri';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+/*Aqui como tambien había comentado en los html, empece a encerrar aun más el contenido, para separar los articulos que hablaban de cosas diferentes y no mezclar tanto las cosas, le puse un fondo verde, distinto al 
+de las letras, lo centre, y le puse un margen y un borde circular, con la propiedad border-radius*/
+#contenedorexplab{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:300px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#contenedorexplen{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:300px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+#contenedorexplab h1{
+    text-align: center;
+}
+
+#titulopro{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family:'Courier New';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#contenedorgenpro{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:3800px;
+    text-align: left;
+    margin: 2rem auto;
+    font-family:'Calibri';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+/*Todo lo anterior era más de lo mismo, aquí simplemente alineo los h1 de los contenedores verdes hacia la izquierda, ya que posteriormente tambien puse las imagenes a la izquierda y el texto a la derecha, por lo
+que me parecía personalmente, que queda más ordenado, además le doy un margen, tanto a los h1, como a los p*/
+#contenedorgenpro h1{
+    text-align: left;
+    margin-left: 2rem;
+}
+#contenedorgenpro p{
+    margin-right: 2rem;
+}
+
+/*Esta parte esta un poco desordenada, y es que despues hay mucho codigo para lo que es los contenedores verdes y las imagenes, por lo que me desordene un poco la verdad, pero esto de aquí es más de lo mismo,
+pero para la pestaña de Contacto*/
+#titulocont{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:200px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family:'Courier New';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#contenidogencont{
+    background-color: rgba(0, 0, 0,.7);
+    color: rgb(30, 255, 0);
+    width: 1500px;
+    height:800px;
+    margin: 2rem auto;
+    font-family:'Calibri';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:1px solid rgb(30, 255, 0);
+}
+
+#contenidogencont h1{
+    text-align: center;
+}
+#contenidogencont p{
+    margin-left: 3rem;
+}
+/*Desde aquí hay mucho codigo repetido, uno por cada recuadro, y tambien 1 por cada imagen, mas adente, estos de aquí son los id's de los recuadros y especifique el tamaño, el color, los bordes, un margen y lo centre*/
+#actividad1{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#actividad2{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#actividad3{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#actividad4{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#actividad6{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+
+#actividad7{
+    background-color: rgba(34, 80, 44, 0.7);
+    color: rgb(30, 255, 0);
+    width: 1300px;
+    height:600px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+/*Y de aquí en adelante todos estos .act, son el nombre de la clase de cada una de las imagenes en la pestaña de proyecto, con la propiedad float las moví a la izquierda y les asigne un margen tanto a la izquierda
+como a la derecha, para que no chocara ni con el recuadro verde, ni con el texto*/
+.act1{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.act2{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    object-fit: contain;
+    display: block;
+}
+
+.act3{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.act4{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.act6{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.act7{
+    float:left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/*Esto es algo que había quedado desordenado, pero es de la pestaña experiencia, del segundo recuadro verde, de los lenguajes de programación, simplemente alinee los h1 al centro*/
+#contenedorexplen h1{
+    text-align: center;
+}
+/*Y esto como le había comentado antes, en la seccion de Portafolioh, es lo que debía ser parte de mi footer profesional, pero que al final no resulto, borre mucho codigo de lo que tenía que ser el footer, pero
+aquí hay parte de el que no borre, por si quiere revisarlo*/
+
+#cajamid{
+    text-align: center;
+}
+
+#cajaizq{
+    text-align:left;
+}
+/*
+#caja{
+
+#cajaizq{
+    left: 20px;
+    color:white;
+    margin: 2rem;
+    position:relative;
+    top:100px;
+    bottom:0px;
+    right:;
+    left: 200px;
+}
+
+#contenidoizq{ 
+    color:white;
+    margin: 2rem;
+    font-family:'Calibri';
+}
+
+#contenidoizq p  {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px;
+    border: solid 2px rgb(0, 0, 0);
+    font: normal 13px arial, helvetica, sans-serif;
+    }
+    */
